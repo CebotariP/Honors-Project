@@ -1,0 +1,44 @@
+BODY             { font-size:9pt;font-family:Arial,Helvetica,sans-serif;color:#000000; } 
+LEGEND           { font-size:9pt;font-family:Arial,Helvetica,sans-serif;color:#000000; } 
+INPUT            { font-size:9pt;font-family:Arial,Helvetica,sans-serif;color:#000000; } 
+TEXTAREA         { font-size:9pt;font-family:Arial,Helvetica,sans-serif;color:#000000; } 
+SELECT           { font-size:9pt;font-family:Arial,Helvetica,sans-serif;color:#000000; } 
+OPTION           { font-size:9pt;font-family:Arial,Helvetica,sans-serif;color:#000000; } 
+TD               { font-size:9pt;font-family:Arial,Helvetica,sans-serif;color:#000000; } 
+TR               { font-size:9pt;font-family:Arial,Helvetica,sans-serif;color:#000000; } 
+TH               { font-size:9pt;font-family:Arial,Helvetica,sans-serif;color:#000000;;text-decoration: none;} 
+H2               { font-size: 12pt; color: #333399; font-weight: bold; } 
+A                { color: #333399; } 
+FIELDSET         { padding: 3px; border: 1px solid #117A2D;} 
+LI               { font-size:9pt;font-family:Arial,Helvetica,sans-serif;color:#000000; } 
+.tabdarkcolor    { background-color: #117A2D;} 
+.tablightcolor   { background-color: #F5AD11;} 
+.facilitywhiteboard_lo_light    { background-color: #7CA6CF;} 
+.facilitywhiteboard_hi_light   { background-color: #939393;} 
+.facilitywhiteboard_lo_light_text    { color: #7CA6CF;} 
+.facilitywhiteboard_hi_light_text   { color: #939393;} 
+.heading         { font-size: 12pt; color: #333399; font-weight: bold; } 
+.list_header     { font-weight:bold;color: #000000; background: #CCCCCA;;border-bottom: solid 1px #FAD7F8;border-top: solid 1px #FAD7F8;} 
+.list_header2    { font-weight:bold;color: #000000; background: #CCCCCA;;border-bottom: solid 1px #FAD7F8;border-top: none;} 
+.bottom_border   { border-bottom:solid 1px #FAD7F8;} 
+.table_border    { border-collapse:collapse; border-color:#FAD7F8; border-style:solid; border-width:1px;} 
+.table_light, tr.table_light>td  { color: #000000; background: #CCCCCA; } 
+.table_dark, tr.table_dark>td      { color: #FFFFFF; background: #006699; } 
+.table_dark a    {  } 
+.table_label     { color: #000000; background: #EEEEEE; } 
+.table_lbl_bord  { color: #000000; background: #EEEEEE;;text-align:right; border-right:solid 1px #888888;} 
+.table_highlight { color: #000000; background: #B9DCEE; } 
+.listbtn         { font-weight: normal; background-color:#FAD7F8; letter-spacing: 1pt; font-size:11px; text-decoration: none; border-top:solid 1px #C8C8C8; border-right:solid 1px #787878; border-left:solid 1px #C8C8C8; border-bottom:solid 1px #888888; padding:0px 0px 0px 0px; } 
+.listbtn:hover   { text-decoration:none; border-top:solid 1px #787878; border-left:solid 1px #787878; color:black;} 
+.filter          { background-color:#FAD7F8; } 
+.borderlineoutline { height:1px;background-color:#FAD7F8;padding:0px 0px 0px 0px; } 
+.hrpad           { width:100%; border:0; height:1px; color:#FAD7F8; background-color:#FAD7F8; } 
+li.problem>a,li.problem>div { background-color:#FFCCCC; } 
+li.goal>a,li.goal>div { background-color:#D6FFD6; } 
+li.objective>a,li.objective>div { background-color:#B2E0FF; } 
+li.intervention>a,li.intervention>div { background-color:#C2F0C2; }
+
+
+.Compelled { background-color: #FF00FF;}
+.Refused { background-color: #FF7F50;}
+.Spit_Out { background-color: #00FFFF;}
