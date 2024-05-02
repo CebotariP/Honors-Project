@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Validation</title>
+    <link rel="stylesheet" type="text/css" href="validation.css">
+    <script src="validation.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Lutheran Community Services Northwest Data Validation</h1>
+</header>
+
+<section class="upload-section">
+    <p>Upload Health Record:</p>
+    <form id="uploadForm" method="post" enctype="multipart/form-data">
+        <input type="file" id="fileInput" name="file" accept=".html" class="custom-file-input" style="padding-left: 6vw;">
+        <br><br>
+        <div class="column">
+        <p>Validate based on Data Type</p>
+        <button type="button" onclick="validateDateOnly()">Validate Dates</button>
+        <br><br>
+        <button type="button" onclick="validateSupervisingPhysicianOnly()">Validate Supervising Physician</button>
+        <br><br>
+        <button type="button" onclick="validateSignaturesOnly()">Validate Signatures</button>
+        <br><br>
+        <button type="button" onclick="extractAndValidate()">Validate All of the Above</button>
+        <br><br><br></div>
+        <div class="column"><p>Validate based on Section</p>
+        <button type="button" onclick="validateClientService()">Validate Client Service</button>
+        <br><br>
+        <button type="button" onclick="validateTreatmentPlan()">Validate Treatment Plan</button>
+        <br><br>
+        <button type="button" onclick="validateSignaturesOnly()">Validate Signatures</button>
+        <br><br>
+        <button type="button" onclick="extractAndValidate()">Validate All of the Above</button>
+        <br><br><br></div>
+        <!-- <button type="button" onclick="togglePDF()">Progress Note Suggestions</button>
+        <embed id="pdfEmbed" src="EBP Essential Elements.pdf" type="application/pdf" width="100%" height="600px" hidden /> -->
+
+    </form>
+    <!-- Message div to display console logs and errors -->
+    <div id="messageBox"></div>
+</section>
+
+<footer>
+    <!-- Footer content here -->
+</footer>
+
+</body>
+</html>
+
+<!-- 
+TO DO
+- Validate dates should include treatment plan dates 
+- add error messageBox styling so it's like a report 
+- supervising physician
+- validating number of signatures
+- validating all of the above
+- adding cool styling 
+- validate by data type vs. section
+-->
